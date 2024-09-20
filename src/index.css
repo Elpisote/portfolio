@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-text;
+  @apply bg-app-background;
+  @apply text-low-contrast-text;
+}
+
+h1 {
+  @apply font-heading;
+  @apply text-low-contrast-text;
+  @apply text-3xl;
+  @apply font-bold;
+}
+
+.custom-underline {
+  text-decoration: underline;
+  text-decoration-color: #ffe629;
+  text-decoration-thickness: 4px; /* Épaisseur du soulignement */
+  text-underline-offset: 22px; /* Décalage du soulignement */
+}
+
+.vertical-timeline-element-content h2,
+.vertical-timeline-element-content h3 {
+  color: #f6eeb4 !important;
+}
+
+.vertical-timeline-element-content h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.vertical-timeline-element-content h3 {
+  font-style: italic;
+}
