@@ -76,7 +76,7 @@ const ProjectData: ProjectType[] = [
   {
     id: 2,
     title: "Traçabilité des aliments",
-    period: "Août 2024 - Juin 2024",
+    period: "Août 2023 - Juin 2024",
     iconNames: [
       { name: "csharp" },
       { name: "dotnet" },

@@ -37,7 +37,7 @@ const Presentation = () => {
           défis techniques complexes
         </span>
         . Je suis prête à mettre ces compétences au service de projets web
-        innovant.
+        innovants.
       </p>
     </Section>
   );
