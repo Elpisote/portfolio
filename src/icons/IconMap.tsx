@@ -8,6 +8,8 @@ import MariaDBIcon from "../icons/MariaDBIcon";
 import ReactIcon from "../icons/ReactIcon";
 import AngularIcon from "./AngularIcon";
 import NextIcon from "./NextIcon";
+import { PostGreSqlIcon } from "./PostGreSql";
+import PrismaIcon from "./PrismaIcon";
 
 // Taille par défaut pour les icônes
 const DEFAULT_SIZE = 32;
@@ -53,6 +55,12 @@ const iconMap: Record<
   ),
   next: (size = DEFAULT_SIZE, className) => (
     <NextIcon size={size} className={className} />
+  ),
+  prisma: (size = DEFAULT_SIZE, className) => (
+    <PrismaIcon size={size} className={className} />
+  ),
+  postgreSql: (size = DEFAULT_SIZE, className) => (
+    <PostGreSqlIcon size={size} className={className} />
   ),
 };
 

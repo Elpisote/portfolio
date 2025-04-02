@@ -36,6 +36,37 @@ import { ProjectType } from "../types/ProjectType";
  */
 const ProjectData: ProjectType[] = [
   {
+    id: 0,
+    title: "PattePlus",
+    period: "Janvier 2025 - en cours",
+    iconNames: [
+      { name: "next" },
+      { name: "react" },
+      { name: "prisma" },
+      { name: "postgreSql" },
+    ],
+    description: [
+      "Développement en solo d’une application SaaS pour le suivi de la santé et du bien-être des animaux de compagnie (chats, chiens, NAC).",
+      "L'application permet aux utilisateurs de centraliser les informations médicales et comportementales de leurs animaux : soins, traitements, suivi des paramètres, historiques, etc.",
+      "Ce projet vise à améliorer la qualité de vie des animaux en aidant leurs propriétaires à anticiper leurs besoins santé.",
+    ],
+    link: "patteplus",
+    group: false,
+    pratique: [
+      "Définition du cahier des charges à partir d’un besoin personnel réel, structuration du projet.",
+      "Développement fullstack avec Next.js 15, React, Prisma et PostgreSQL hébergé sur Neon. Intégration d’outils d’IA en réflexion pour automatiser des rappels et analyser l’historique des données.",
+      "Gestion du projet de A à Z : conception des modèles de données, UX/UI, roadmap, stratégie de lancement prévue pour septembre 2025.",
+      "Élaboration de l’identité de marque : naming, positionnement, design system et tonalité éditoriale. Création des supports de communication (landing page, mockups, messages clés) pour une cohérence visuelle et marketing.",
+    ],
+    retour: [
+      "Ce projet m’a permis de monter en compétence sur la stack Next.js / Prisma et d’adopter une véritable posture produit.",
+      "Travailler seule sur toutes les facettes du projet (technique, design, fonctionnel, marketing) est exigeant mais extrêmement formateur.",
+      "Ce SaaS est plus qu’un projet : c’est une solution concrète à un problème que je vis au quotidien avec mes propres animaux.",
+    ],
+    images: [],
+    labelImage: [],
+  },
+  {
     id: 1,
     title: "Codrive",
     period: "Mars 2023 - Juin 2023",
@@ -85,7 +116,7 @@ const ProjectData: ProjectType[] = [
     ],
     description: [
       "Dans le cadre de ce projet personnel, j'ai développé une application destinée aux restaurants pour améliorer la traçabilité des aliments.",
-      "Cette application permet aux utilisateurs d’imprimer des étiquettes afin de suivre les dates limites de consommation (DLC) des produits alimentaires.",
+      "Cette application permet aux utilisateurs d'imprimer des étiquettes afin de suivre les dates limites de consommation (DLC) des produits alimentaires.",
       "L'objectif principal est de faciliter une gestion efficace des stocks en fournissant des outils pour une meilleure gestion des produits et une réduction du gaspillage alimentaire.",
     ],
     link: "tracability",
