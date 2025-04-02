@@ -44,14 +44,27 @@ const TechnoData: TechnoType[] = [
   },
   {
     id: 4,
-    title: "Angular, React",
+    title: "Angular",
     version: "version 17",
     subtitle: "Depuis 2023",
-    iconNames: [
-      { name: "angular", size: 50 },
-      { name: "react", size: 50 },
-    ],
+    iconNames: [{ name: "angular", size: 50 }],
     tag: ["CNAM", "Incubateur", "Personnel"],
+  },
+  {
+    id: 5,
+    title: "React",
+    version: "version 18",
+    subtitle: "Depuis 2023",
+    iconNames: [{ name: "react", size: 50 }],
+    tag: ["Incubateur", "Personnel", "PattePlus"],
+  },
+  {
+    id: 6,
+    title: "Next.js",
+    version: "version 15",
+    subtitle: "Depuis 2025",
+    iconNames: [{ name: "next", size: 50 }],
+    tag: ["PattePlus"],
   },
 ];
 

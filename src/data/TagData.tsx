@@ -11,8 +11,9 @@ import { TagType } from "../types/TagType";
  */
 const TagData: TagType[] = [
   { label: "CNAM", color: "text-red-500" }, // Tag pour CNAM avec couleur rouge
-  { label: "Incubateur", color: "text-green-500" },
+  { label: "Incubateur", color: "text-purple-500" },
   { label: "Personnel", color: "text-blue-500" }, // Tag pour Personnel avec couleur bleue
+  { label: "PattePlus", color: "text-green-500" }, // Tag pour PattePlus avec couleur verte
 ];
 
 export { TagData };

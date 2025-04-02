@@ -7,6 +7,7 @@ import LinkedInIcon from "../icons/LinkedInIcon";
 import MariaDBIcon from "../icons/MariaDBIcon";
 import ReactIcon from "../icons/ReactIcon";
 import AngularIcon from "./AngularIcon";
+import NextIcon from "./NextIcon";
 
 // Taille par défaut pour les icônes
 const DEFAULT_SIZE = 32;
@@ -49,6 +50,9 @@ const iconMap: Record<
   ),
   dotnet: (size = DEFAULT_SIZE, className) => (
     <DotnetIcon size={size} className={className} />
+  ),
+  next: (size = DEFAULT_SIZE, className) => (
+    <NextIcon size={size} className={className} />
   ),
 };
 

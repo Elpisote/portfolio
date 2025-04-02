@@ -14,31 +14,39 @@ const Presentation = () => {
     <Section id="presentation">
       {/* Titre de la section */}
       <h1 className="custom-underline mb-10">Présentation</h1>
-
       {/* Contenu de la présentation */}
-      <p>
-        Après dix années de carrière en tant qu'infirmière, j'ai décidé de me
-        réorienter vers le développement web, un domaine où je peux mettre à
-        profit ma <span className="text-hight-contrast-text">curiosité</span> et
-        ma <span className="text-hight-contrast-text">rigueur</span>. Mon
-        parcours unique m'a appris à{" "}
-        <span className="text-hight-contrast-text">
-          coordonner des efforts collectifs
-        </span>{" "}
-        et à{" "}
-        <span className="text-hight-contrast-text">communiquer clairement</span>
-        , même dans des situations de stress intense. J'ai également développé
-        une{" "}
-        <span className="text-hight-contrast-text">
-          capacité d'analyse approfondie
-        </span>
-        , que j'applique aujourd'hui pour résoudre des{" "}
-        <span className="text-hight-contrast-text">
-          défis techniques complexes
-        </span>
-        . Je suis prête à mettre ces compétences au service de projets web
-        innovants.
-      </p>
+      <div className="flex flex-col gap-4">
+        <p>
+          Ancienne infirmière, je me suis reconvertie dans le développement web
+          pour mettre ma{" "}
+          <span className="text-hight-contrast-text">curiosité</span>, ma{" "}
+          <span className="text-hight-contrast-text">rigueur</span> et mon sens
+          du concret au service de la tech.
+        </p>
+        <p>
+          Aujourd’hui, je développe un{" "}
+          <span className="text-hight-contrast-text">
+            SaaS pour le suivi de la santé animale
+          </span>
+          , né d’un besoin réel que j’ai rencontré avec mes propres animaux.{" "}
+        </p>
+        <p>
+          Mon parcours me donne une approche centrée utilisateur, une grande
+          adaptabilité et une{" "}
+          <span className="text-hight-contrast-text">
+            forte capacité d’analyse
+          </span>
+          .{" "}
+        </p>
+        <p>
+          Je conçois des applications utiles, avec méthode et passion, en
+          combinant mes compétences{" "}
+          <span className="text-hight-contrast-text">
+            techniques et humaines
+          </span>
+          .
+        </p>
+      </div>
     </Section>
   );
 };
