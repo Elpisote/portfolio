@@ -20,15 +20,35 @@ import { ParcoursType } from "../types/ParcoursType";
 const ParcoursData: ParcoursType[] = [
   {
     id: 1,
+    date: "Janvier 2024 - En cours",
+    title: "Développeuse full stack",
+    subtitle: "Projet personnel – PattePlus",
+    description:
+      "Développement d'un SaaS pour le suivi de la santé et du bien-être des animaux de compagnie.",
+    location: "France, Villeneuve d'Ascq",
+    icon: "work",
+  },
+  {
+    id: 2,
+    date: "Octobre 2024",
+    title: "Formation spécialisée",
+    subtitle: "Next.js, Prisma, IA",
+    description:
+      "Approfondissement sur le développement full stack moderne avec Next.js, Prisma, PostgreSQL (Neon) et intégration d'outils d'intelligence artificielle.",
+    location: "France, Villeneuve d'Ascq",
+    icon: "school",
+  },
+  {
+    id: 3,
     date: "Septembre 2024",
-    title: "Développeuse front-end",
+    title: "Développeuse full stack",
     subtitle: "Projet personnel",
     description: "Création de mon portfolio",
     location: "France, Villeneuve d'Ascq",
     icon: "work",
   },
   {
-    id: 2,
+    id: 4,
     date: "Août 2023 - Juin 2024",
     title: "Développeuse full stack",
     subtitle: "Projet personnel",
@@ -37,7 +57,7 @@ const ParcoursData: ParcoursType[] = [
     icon: "work",
   },
   {
-    id: 3,
+    id: 5,
     date: "Mars 2023 - Juin 2024",
     title: "Développeuse full stack",
     subtitle: "Incubateur - M2i Formation",
@@ -46,7 +66,7 @@ const ParcoursData: ParcoursType[] = [
     icon: "work",
   },
   {
-    id: 4,
+    id: 6,
     date: "Septembre 2022 - Juin 2024",
     title: "Auditrice",
     subtitle: "Conservatoire National des Arts et Métiers",
@@ -55,7 +75,7 @@ const ParcoursData: ParcoursType[] = [
     icon: "school",
   },
   {
-    id: 5,
+    id: 7,
     date: "Septembre 2019 - Juin 2023",
     title: "Auditrice",
     subtitle: "Conservatoire National des Arts et Métiers",
