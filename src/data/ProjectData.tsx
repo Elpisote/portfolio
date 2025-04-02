@@ -2,6 +2,9 @@ import codriveAccueil from "../assets/codrive-accueil.jpg";
 import codriveProfil1 from "../assets/codrive-profil1.png";
 import codriveProfil2 from "../assets/codrive-profil2.png";
 import codriveProfil3 from "../assets/codrive-profil3.png";
+import patteplusParametre from "../assets/patteplus-parametre.png";
+import patteplusPrevention from "../assets/patteplus-prevention.png";
+import patteplusSuivi from "../assets/patteplus-suivi.png";
 import TrAccueil from "../assets/Tr-accueil.png";
 import TrAddCat from "../assets/Tr-form-ajout-cat.png";
 import TrHistorique from "../assets/Tr-historique.png";
@@ -46,25 +49,29 @@ const ProjectData: ProjectType[] = [
       { name: "postgreSql" },
     ],
     description: [
-      "Développement en solo d’une application SaaS pour le suivi de la santé et du bien-être des animaux de compagnie (chats, chiens, NAC).",
+      "Développement en solo d'une application SaaS pour le suivi de la santé et du bien-être des animaux de compagnie (chats, chiens, NAC).",
       "L'application permet aux utilisateurs de centraliser les informations médicales et comportementales de leurs animaux : soins, traitements, suivi des paramètres, historiques, etc.",
       "Ce projet vise à améliorer la qualité de vie des animaux en aidant leurs propriétaires à anticiper leurs besoins santé.",
     ],
     link: "patteplus",
     group: false,
     pratique: [
-      "Définition du cahier des charges à partir d’un besoin personnel réel, structuration du projet.",
-      "Développement fullstack avec Next.js 15, React, Prisma et PostgreSQL hébergé sur Neon. Intégration d’outils d’IA en réflexion pour automatiser des rappels et analyser l’historique des données.",
+      "Définition du cahier des charges à partir d'un besoin personnel réel, structuration du projet.",
+      "Développement fullstack avec Next.js 15, React, Prisma et PostgreSQL hébergé sur Neon. Intégration d'outils d'IA en réflexion pour automatiser des rappels et analyser l'historique des données.",
       "Gestion du projet de A à Z : conception des modèles de données, UX/UI, roadmap, stratégie de lancement prévue pour septembre 2025.",
-      "Élaboration de l’identité de marque : naming, positionnement, design system et tonalité éditoriale. Création des supports de communication (landing page, mockups, messages clés) pour une cohérence visuelle et marketing.",
+      "Élaboration de l'identité de marque : naming, positionnement, design system et tonalité éditoriale. Création des supports de communication (landing page, mockups, messages clés) pour une cohérence visuelle et marketing.",
     ],
     retour: [
-      "Ce projet m’a permis de monter en compétence sur la stack Next.js / Prisma et d’adopter une véritable posture produit.",
+      "Ce projet m'a permis de monter en compétence sur la stack Next.js / Prisma et d'adopter une véritable posture produit.",
       "Travailler seule sur toutes les facettes du projet (technique, design, fonctionnel, marketing) est exigeant mais extrêmement formateur.",
-      "Ce SaaS est plus qu’un projet : c’est une solution concrète à un problème que je vis au quotidien avec mes propres animaux.",
+      "Ce SaaS est plus qu'un projet : c'est une solution concrète à un problème que je vis au quotidien avec mes propres animaux.",
     ],
-    images: [],
-    labelImage: [],
+    images: [patteplusParametre, patteplusPrevention, patteplusSuivi],
+    labelImage: [
+      "Configuration des paramètres",
+      "Prévention",
+      "Suivi des paramètres",
+    ],
   },
   {
     id: 1,
